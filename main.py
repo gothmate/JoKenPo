@@ -66,7 +66,7 @@ while jogador == 0 or jogador == 1 or jogador == 2:
         print('Venci! Escolhi {}.'.format(itens[computador], jog_jogador(jogador), (jog_comp(computador))))
         comp_cont += 1
         computador = randint(0,2)
-        print('jogador {} X {} Computador'.format(j_cont, comp_cont))
+        print(f'jogador {j_cont} X {comp_cont} Computador')
         jogador = int(input('Jogue novamente: '))
         # Se jogador escolher maior que 2, loop termina
         if jogador > 2:
